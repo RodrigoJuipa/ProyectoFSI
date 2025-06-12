@@ -241,6 +241,7 @@
             this.Controls.Add(this.txtNombreCompleto);
             this.Controls.Add(this.dgPacientes);
             this.Name = "FrmPacientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pacientes";
             ((System.ComponentModel.ISupportInitialize)(this.dgPacientes)).EndInit();
             this.ResumeLayout(false);

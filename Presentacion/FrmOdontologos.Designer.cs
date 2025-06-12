@@ -255,6 +255,7 @@
             this.Controls.Add(this.txtCodigoColegiatura);
             this.Controls.Add(this.dgOdontologos);
             this.Name = "FrmOdontologos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Odontólogos";
             ((System.ComponentModel.ISupportInitialize)(this.dgOdontologos)).EndInit();
             this.ResumeLayout(false);

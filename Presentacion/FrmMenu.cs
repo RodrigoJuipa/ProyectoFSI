@@ -52,5 +52,28 @@ namespace Presentacion
             FrmRegistrarPaciente frm = new FrmRegistrarPaciente();
             frm.ShowDialog();
         }
+
+        private void crearNuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCrearPerfil frm = new FrmCrearPerfil();
+            frm.ShowDialog();
+        }
+
+        private void verCitasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCitas frm = new FrmCitas();
+            frm.ShowDialog();
+        }
+
+        private void programarNuevaCitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRegistrarCita frm = new FrmRegistrarCita();
+            frm.ShowDialog();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

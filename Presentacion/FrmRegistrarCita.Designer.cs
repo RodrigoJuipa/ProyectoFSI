@@ -194,6 +194,7 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.dgPacientes);
             this.Name = "FrmRegistrarCita";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Cita";
             ((System.ComponentModel.ISupportInitialize)(this.dgPacientes)).EndInit();
             this.ResumeLayout(false);

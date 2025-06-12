@@ -241,6 +241,7 @@
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.dgPacientes);
             this.Name = "FrmCitas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Citas";
             ((System.ComponentModel.ISupportInitialize)(this.dgPacientes)).EndInit();
             this.ResumeLayout(false);

@@ -32,14 +32,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnGuardarCambios = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtNombreCompleto = new System.Windows.Forms.TextBox();
             this.txtDNI = new System.Windows.Forms.TextBox();
             this.txtCelular = new System.Windows.Forms.TextBox();
-            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(48, 160);
+            this.label2.Location = new System.Drawing.Point(48, 213);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(132, 18);
             this.label2.TabIndex = 1;
@@ -66,7 +65,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 216);
+            this.label3.Location = new System.Drawing.Point(48, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 18);
             this.label3.TabIndex = 2;
@@ -82,16 +81,6 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Celular:";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(48, 334);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Correo electrónico:";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -102,15 +91,15 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Perfil";
             // 
-            // btnGuardarCambios
+            // btnEliminar
             // 
-            this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardarCambios.Location = new System.Drawing.Point(236, 400);
-            this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(148, 33);
-            this.btnGuardarCambios.TabIndex = 6;
-            this.btnGuardarCambios.Text = "Guardar cambios";
-            this.btnGuardarCambios.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(145, 334);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(148, 33);
+            this.btnEliminar.TabIndex = 6;
+            this.btnEliminar.Text = "Eliminar Perfil";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // txtCodigo
             // 
@@ -125,9 +114,8 @@
             // txtNombreCompleto
             // 
             this.txtNombreCompleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreCompleto.Location = new System.Drawing.Point(199, 157);
+            this.txtNombreCompleto.Location = new System.Drawing.Point(199, 210);
             this.txtNombreCompleto.Name = "txtNombreCompleto";
-            this.txtNombreCompleto.ReadOnly = true;
             this.txtNombreCompleto.Size = new System.Drawing.Size(365, 24);
             this.txtNombreCompleto.TabIndex = 8;
             // 
@@ -135,7 +123,7 @@
             // 
             this.txtDNI.Enabled = false;
             this.txtDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDNI.Location = new System.Drawing.Point(199, 213);
+            this.txtDNI.Location = new System.Drawing.Point(199, 160);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.ReadOnly = true;
             this.txtDNI.Size = new System.Drawing.Size(365, 24);
@@ -149,32 +137,34 @@
             this.txtCelular.Size = new System.Drawing.Size(365, 24);
             this.txtCelular.TabIndex = 10;
             // 
-            // txtCorreoElectronico
+            // button1
             // 
-            this.txtCorreoElectronico.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(199, 331);
-            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(365, 24);
-            this.txtCorreoElectronico.TabIndex = 11;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(331, 334);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 33);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Guardar cambios";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FrmPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 471);
-            this.Controls.Add(this.txtCorreoElectronico);
+            this.ClientSize = new System.Drawing.Size(628, 398);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCelular);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.txtNombreCompleto);
             this.Controls.Add(this.txtCodigo);
-            this.Controls.Add(this.btnGuardarCambios);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmPerfil";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perfil";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -187,13 +177,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button btnGuardarCambios;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtNombreCompleto;
         private System.Windows.Forms.TextBox txtDNI;
         private System.Windows.Forms.TextBox txtCelular;
-        private System.Windows.Forms.TextBox txtCorreoElectronico;
+        private System.Windows.Forms.Button button1;
     }
 }

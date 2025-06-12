@@ -193,6 +193,7 @@
             this.Controls.Add(this.txtNombreCompleto);
             this.Controls.Add(this.dgPacientes);
             this.Name = "FrmRegistrarPaciente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Paciente";
             ((System.ComponentModel.ISupportInitialize)(this.dgPacientes)).EndInit();
             this.ResumeLayout(false);

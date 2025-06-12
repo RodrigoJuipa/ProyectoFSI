@@ -41,7 +41,6 @@
             this.citasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verCitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.programarNuevaCitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reprogramarCitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -97,14 +96,14 @@
             // verOdontólogosToolStripMenuItem
             // 
             this.verOdontólogosToolStripMenuItem.Name = "verOdontólogosToolStripMenuItem";
-            this.verOdontólogosToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.verOdontólogosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verOdontólogosToolStripMenuItem.Text = "Ver Odontólogos";
             this.verOdontólogosToolStripMenuItem.Click += new System.EventHandler(this.verOdontólogosToolStripMenuItem_Click);
             // 
             // registrarNuevoToolStripMenuItem
             // 
             this.registrarNuevoToolStripMenuItem.Name = "registrarNuevoToolStripMenuItem";
-            this.registrarNuevoToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.registrarNuevoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.registrarNuevoToolStripMenuItem.Text = "Registrar nuevo";
             this.registrarNuevoToolStripMenuItem.Click += new System.EventHandler(this.registrarNuevoToolStripMenuItem_Click);
             // 
@@ -135,8 +134,7 @@
             // 
             this.citasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.verCitasToolStripMenuItem,
-            this.programarNuevaCitaToolStripMenuItem,
-            this.reprogramarCitaToolStripMenuItem});
+            this.programarNuevaCitaToolStripMenuItem});
             this.citasToolStripMenuItem.Name = "citasToolStripMenuItem";
             this.citasToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.citasToolStripMenuItem.Text = "Citas";
@@ -144,20 +142,14 @@
             // verCitasToolStripMenuItem
             // 
             this.verCitasToolStripMenuItem.Name = "verCitasToolStripMenuItem";
-            this.verCitasToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.verCitasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verCitasToolStripMenuItem.Text = "Ver citas";
             // 
             // programarNuevaCitaToolStripMenuItem
             // 
             this.programarNuevaCitaToolStripMenuItem.Name = "programarNuevaCitaToolStripMenuItem";
-            this.programarNuevaCitaToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.programarNuevaCitaToolStripMenuItem.Text = "Programar nueva";
-            // 
-            // reprogramarCitaToolStripMenuItem
-            // 
-            this.reprogramarCitaToolStripMenuItem.Name = "reprogramarCitaToolStripMenuItem";
-            this.reprogramarCitaToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.reprogramarCitaToolStripMenuItem.Text = "Modificar cita";
+            this.programarNuevaCitaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.programarNuevaCitaToolStripMenuItem.Text = "Registrar nueva";
             // 
             // reportesToolStripMenuItem
             // 
@@ -204,7 +196,6 @@
         private System.Windows.Forms.ToolStripMenuItem citasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verCitasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem programarNuevaCitaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reprogramarCitaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }

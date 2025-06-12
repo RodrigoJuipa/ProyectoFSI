@@ -52,6 +52,12 @@
     <Compile Include="FrmActualizarContraseña.Designer.cs">
       <DependentUpon>FrmActualizarContraseña.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCitas.Designer.cs">
+      <DependentUpon>FrmCitas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,12 @@
     <Compile Include="FrmPerfil.Designer.cs">
       <DependentUpon>FrmPerfil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRegistrarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistrarCita.Designer.cs">
+      <DependentUpon>FrmRegistrarCita.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRegistrarOdontologo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +111,9 @@
     <EmbeddedResource Include="FrmActualizarContraseña.resx">
       <DependentUpon>FrmActualizarContraseña.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCitas.resx">
+      <DependentUpon>FrmCitas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPerfil.resx">
       <DependentUpon>FrmPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistrarCita.resx">
+      <DependentUpon>FrmRegistrarCita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegistrarOdontologo.resx">
       <DependentUpon>FrmRegistrarOdontologo.cs</DependentUpon>
